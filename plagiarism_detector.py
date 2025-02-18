@@ -5,7 +5,7 @@ import re
 from difflib import SequenceMatcher
 
 class PlagiarismChecker:
-    def __init__(self, similarity_threshold=0.75, db_file="plagiarism_db.txt", serpapi_key="your_serpapi_key"):
+    def __init__(self, similarity_threshold=0.75, db_file="plagiarism_db.txt", serpapi_key="fcd6a1e749c3dc5632b2e2cac1dc8180503d1a061524d42b69a50e70327f6c67"):
         self.database = set()
         self.similarity_threshold = similarity_threshold
         self.db_file = db_file
@@ -81,7 +81,7 @@ class PlagiarismChecker:
         return SequenceMatcher(None, text1, text2).ratio()
 
 # Initialize the plagiarism checker
-plagiarism_checker = PlagiarismChecker(serpapi_key="your_serpapi_key")
+plagiarism_checker = PlagiarismChecker(serpapi_key="fcd6a1e749c3dc5632b2e2cac1dc8180503d1a061524d42b69a50e70327f6c67")
 
 while True:
     user_text = input("\nEnter your text (or type 'exit' to quit): ").strip()
