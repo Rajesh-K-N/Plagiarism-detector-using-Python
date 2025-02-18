@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 hello
 hello world
 hello worlds
@@ -9,3 +10,12 @@ it this unique
 kscjncsdbvvanfrofeighrsdfo 23232jsdc sdvanwrebnwf
 helloooo
 hsdjfaabchsdch 4rbdsfi 4rbf
+=======
+hello
+hello world
+hello worlds
+ye kyaa thaaaa
+nida avana vathaaaaaaa
+hii
+helloooo
+>>>>>>> c45330d0b7749cee57163be5116f241e860a03b7
